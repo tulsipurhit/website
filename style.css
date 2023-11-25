@@ -196,6 +196,29 @@ body, ul {
         max-width: 100px; /* Adjust the size of the image as needed */
         height: auto;
     }
+    /*aboutus*/
+    .abtus{
+      margin-top: 0%;
+      font-size: large;
+      background-color:cornflowerblue;
+      display: inline;
+
+    }
+    
+    .abtus h1{
+      margin-left: 20px;
+      margin-top:10px ;
+    }
+    .abtus h3{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    
+    }
+    .abtus p{
+      margin-left: 20px;
+
+    }
   
   
 
