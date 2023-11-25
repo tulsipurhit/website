@@ -167,11 +167,11 @@ body, ul {
     background-color:#ffe2e4;
   }
   .box{
-        border: 1px solid #000;
         border-radius:2%;
          /* Add borders or styles */
         margin: 5px; /* Add spacing between boxes */
-       
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Change values to adjust the shadow */
+
         display: inline;
          background-color: #e0e0e0;
       }
@@ -205,6 +205,7 @@ body, ul {
         padding: 20px;
         border-radius: 20px;
         background-color: #e0e0e0;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 
     }
     
@@ -227,7 +228,7 @@ body, ul {
  */        border-radius:2%;
          /* Add borders or styles */
         margin: 5px; /* Add spacing between boxes */
-        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Change values to adjust the shadow */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Change values to adjust the shadow */
 
          background-color: #ffffff;
       }
