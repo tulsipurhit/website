@@ -1,42 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About us</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background-color: #efcfd1;
+        margin: 0;
+        font-family: 'Nunito', sans-serif;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; /* Set minimum height to the viewport */
+      }
+      .about-section {
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #efcfd1;
+      }
+
+      .about-section h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+        font-family: 'Nunito', sans-serif;
+      }
+
+      .about-section p {
+        line-height: 1.6;
+        font-family: 'Nunito', sans-serif;
+      }
+
+      .about-section img {
+        max-width: 300px;
+        height: auto;
+        margin-left: 20px;
+      }
+
+      @media (max-width: 768px) {
+        .about-section {
+          flex-direction: column;
+          text-align: center;
+          font-family: 'Nunito', sans-serif;
+        }
+
+        .about-section img {
+          margin: 20px 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
     <header>
-   
-        <div class="navbar">
-            <div class="logo">
-                <img src="gtglogo.png" alt="Logo">
-                <P>Get to Glow</P>
-    
-            </div>
-    
-            <ul class="nav-links">
-                <li><a href="index.html" class="Home">Home</a></li>
-                <li><a href="aboutus.html" style="color: yellow;">About us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="Contactus.html">Contact</a></li>
-            </ul>
-            
-               
-            <div class="image-buttons">
-            <button><img src="Asset-4@2x.png" class="button-img"  alt="profile"></button>
-            <button><img src="Asset-3@2x.png" class="button-img" alt="cart"></button>
-            <button><img src="user-circle-tGB.png" class="button-img" alt="Notification"></button>
+      <div class="navbar">
+        <div class="logo">
+          <img src="gtglogo.png" alt="Logo" />
+          <p>Get to Glow</p>
         </div>
+
+        <ul class="nav-links">
+          <li><a href="index.html" class="Home">Home</a></li>
+          <li><a href="aboutus.html" style="color: yellow;">About us</a></li>
+          <li><a href="article.html" class="services">Blogs</a></li>
+          <li><a href="Contactus.html">Contact</a></li>
+        </ul>
+
+        <div class="image-buttons">
+          <button>
+            <img src="Asset-4@2x.png" class="button-img" alt="profile" />
+          </button>
+          <button>
+            <img src="Asset-3@2x.png" class="button-img" alt="cart" />
+          </button>
+          <button>
+            <img
+              src="user-circle-tGB.png"
+              class="button-img"
+              alt="Notification"
+            />
+          </button>
         </div>
-        </header>
-    <div class="abtus" style="color:black">
-    <h1>ABOUT US</h1>
-    <h3>ACHIEVE BEAUTIFUL SKIN WITH OUR TIPS AND SOLUTIONS</h3>
-    <P>This website give you some awsome beauty and haircare tips</P>
-    <p>and also suggest you some Hair are,Skin care and Makeup products !! </P>
-    <img src="cat3.png" alt="">
-</div>
-</body>
+      </div>
+    </header>
+
+    <!-- About section -->
+    <section class="about-section">
+      <div>
+        <h1>About GetToGlow</h1>
+
+        <p>
+          Welcome to GetToGlow, your ultimate destination for all things beauty!
+          We are passionate about helping you discover the latest trends,
+          products, and tips to enhance your beauty regimen.
+        </p>
+
+        <p>
+          At GetToGlow, we believe that beauty is more than skin deep. It's
+          about confidence, self-care, and embracing your unique features. Our
+          dedicated team of beauty enthusiasts strives to curate content that
+          inspires and educates our community.
+        </p>
+
+        <p>
+          Whether you're a skincare novice or a makeup aficionado, our goal is
+          to be your go-to resource for reliable information, expert advice, and
+          product recommendations tailored to your needs.
+        </p>
+
+        <p>
+          Thank you for choosing GetToGlow as your beauty companion. Join us on
+          this journey to explore, learn, and glow together!
+        </p>
+
+        <p>Stay beautiful,</p>
+        <p>The GetToGlow Team</p>
+      </div>
+
+      <!-- Image -->
+      <img src="f1.png" alt="About Us Image" />
+    </section>
+    <footer>
+      <img src="gtglogo.png" alt="Logo" />
+
+      <ul>
+        <li><a href="aboutus.html" class="aboutus">About us</a></li>
+        <li><a href="article.html" class="services">Blogs</a></li>
+        <li><a href="Contactus.html" class="Contact">Contact</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms and Conditions</a></li>
+      </ul>
+      <p>&copy; 2023 GetToGlow. All Rights Reserved.</p>
+    </footer>
+  </body>
 </html>
