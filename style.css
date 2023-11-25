@@ -167,9 +167,6 @@ body, ul {
     background-color:#ffe2e4;
   }
   .box{
-   
-        width: 900px; /* Set width or adjust as needed */
-        height: 900px; /* Set height or adjust as needed */
         border: 1px solid #000;
         border-radius:2%;
          /* Add borders or styles */
@@ -177,6 +174,11 @@ body, ul {
         box-sizing: border-box; /* Include padding and borders in the box size */
         display: inline;
         background-color: #745052;
+      }
+      #skincare{
+        background-image: url(skincare.jpg);
+        height: 100px;
+        width: 50px;
       }
       
   
