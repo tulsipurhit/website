@@ -87,7 +87,7 @@ body, ul {
 .container {
     display: flex;
     align-items: center;
-    background-color:#ffe2e4;
+    background-color:#efcfd1;
   }
   
   .img {
@@ -127,4 +127,23 @@ body, ul {
     height: auto;
     border-radius:8%;
   }
+  categories{
+    display: flex;
+    align-items: center;
+    background-color:#ffe2e4;
+  }
+  .box{
+   
+        width: 900px; /* Set width or adjust as needed */
+        height: 900px; /* Set height or adjust as needed */
+        border: 1px solid #000;
+        border-radius:2%;
+         /* Add borders or styles */
+        margin: 5px; /* Add spacing between boxes */
+        box-sizing: border-box; /* Include padding and borders in the box size */
+        display: inline;
+        background-color: #745052;
+      }
+      
+  
   
