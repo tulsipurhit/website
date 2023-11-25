@@ -171,16 +171,31 @@ body, ul {
         border-radius:2%;
          /* Add borders or styles */
         margin: 5px; /* Add spacing between boxes */
-        box-sizing: border-box; /* Include padding and borders in the box size */
+       
         display: inline;
-        background-color: #745052;
+         background-color: #e0e0e0;
       }
-      #skincare{
-        background-image: url(skincare.jpg);
-        height: 100px;
-        width: 50px;
-      }
-      
+     
+      .categories {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 20px;
+
+    }
+    
+    .box img {
+        max-width: 100px; /* Adjust the size of the image as needed */
+        height: auto;
+    }
   
   
 
