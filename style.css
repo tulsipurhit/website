@@ -84,57 +84,35 @@ body, ul {
     
 }
 
-/* Make the navigation responsive */
-@media screen and (max-width: 768px) {
-    .navbar {
-        flex-direction: column; /* Stack items vertically */
-        align-items: flex-start; /* Align items to the start (left) */
-    }
-
-    .nav-links {
-        margin-top: 10px; /* Add some spacing between logo and links */
-    }
-
-    .image-buttons {
-        width: 100%; /* Take full width when in mobile view */
-        margin-top:10; /* Add some spacing below the links */
-    }
-}
-
-.mainpic {
-    height: 25%;
-    width: 25%;
-    margin-left: 98%;
-    
-   
-}
-
-.one {
-    font-family: sans-serif;
-    font-size: 45px;
-    margin-top: 20px;
-
-}
-.two {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-}
-.searchbar{
-    margin-bottom: 80px;
-    justify-content: space-around;
-}
-.main{
-    background-color: #ffe2e4;
-
-    display:flex;
+.container {
+    display: flex;
     align-items: center;
-    justify-content: space-around;
-}
-.body-section{
-    justify-content:space-around;
-}
-#content {
-    float: left;
-    margin: auto;
-}
-
+    background-color:#ffe2e4;
+  }
+  
+  .img {
+    flex: 1;
+    margin-right: 20px; /* Adjust spacing between image and text */
+  }
+  
+  .image img {
+    width: 80%; /* Ensure the image takes the full width of its container */
+    height: auto;
+  }
+  
+  .text {
+    flex: 1;
+    margin-left: 25px;
+  }
+  
+  /* Additional styling for text */
+  .text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .text p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
