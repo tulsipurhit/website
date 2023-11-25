@@ -1,0 +1,508 @@
+.macbook-pro {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .macbook-pro .div {
+    background-color: #ffffff;
+    width: 1728px;
+    height: 2754px;
+    position: relative;
+  }
+  
+  .macbook-pro .overlap {
+    position: absolute;
+    width: 1728px;
+    height: 497px;
+    top: 2257px;
+    left: 0;
+    background-color: #d9d9d9;
+  }
+  
+  .macbook-pro .line {
+    top: 437px;
+    left: 78px;
+    position: absolute;
+    width: 1546px;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .macbook-pro .tulsilogo {
+    position: absolute;
+    width: 70px;
+    height: 93px;
+    top: 81px;
+    left: 78px;
+    object-fit: cover;
+  }
+  
+  .macbook-pro .text-wrapper {
+    position: absolute;
+    top: 112px;
+    left: 333px;
+    font-family: "Kumbh Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .text-wrapper-2 {
+    position: absolute;
+    top: 173px;
+    left: 333px;
+    font-family: "Kumbh Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .text-wrapper-3 {
+    position: absolute;
+    top: 173px;
+    left: 655px;
+    font-family: "Kumbh Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .text-wrapper-4 {
+    position: absolute;
+    top: 233px;
+    left: 655px;
+    font-family: "Kumbh Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .text-wrapper-5 {
+    position: absolute;
+    top: 293px;
+    left: 655px;
+    font-family: "Kumbh Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .text-wrapper-6 {
+    position: absolute;
+    top: 173px;
+    left: 1070px;
+    font-family: "Kumbh Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .text-wrapper-7 {
+    position: absolute;
+    top: 234px;
+    left: 1070px;
+    font-family: "Kumbh Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .text-wrapper-8 {
+    position: absolute;
+    top: 233px;
+    left: 333px;
+    font-family: "Kumbh Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .text-wrapper-9 {
+    position: absolute;
+    top: 112px;
+    left: 655px;
+    font-family: "Kumbh Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .text-wrapper-10 {
+    position: absolute;
+    top: 112px;
+    left: 1070px;
+    font-family: "Kumbh Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .text-wrapper-11 {
+    position: absolute;
+    top: 158px;
+    left: 1487px;
+    font-family: "Kumbh Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .text-wrapper-12 {
+    position: absolute;
+    top: 452px;
+    left: 681px;
+    font-family: "Kumbh Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .img {
+    top: 155px;
+    left: 97px;
+    position: absolute;
+    width: 1546px;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .macbook-pro .discover-the-latest {
+    position: absolute;
+    top: 340px;
+    left: 132px;
+    font-family: "Kumbh Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .p {
+    position: absolute;
+    top: 462px;
+    left: 132px;
+    font-family: "Kumbh Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .rectangle {
+    position: absolute;
+    width: 632px;
+    height: 78px;
+    top: 559px;
+    left: 132px;
+    background-color: #d9d9d9;
+    border-radius: 32px;
+  }
+  
+  .macbook-pro .overlap-group {
+    position: absolute;
+    width: 228px;
+    height: 78px;
+    top: 559px;
+    left: 812px;
+    background-color: #a9368e;
+    border-radius: 76px;
+  }
+  
+  .macbook-pro .text-wrapper-13 {
+    position: absolute;
+    top: 15px;
+    left: 55px;
+    font-family: "Kumbh Sans-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .il {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 287px;
+    left: 1143px;
+    object-fit: cover;
+  }
+  
+  .macbook-pro .text-wrapper-14 {
+    position: absolute;
+    top: 966px;
+    left: 771px;
+    font-family: "Kumbh Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #3f3f3f;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .text-wrapper-15 {
+    position: absolute;
+    top: 1497px;
+    left: 660px;
+    font-family: "Kumbh Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #3f3f3f;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .overlap-2 {
+    position: absolute;
+    width: 232px;
+    height: 220px;
+    top: 1108px;
+    left: 206px;
+    background-color: #d9d9d9;
+    border-radius: 41px;
+  }
+  
+  .macbook-pro .text-wrapper-16 {
+    position: absolute;
+    top: 31px;
+    left: 67px;
+    font-family: "Kumbh Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .il-2 {
+    position: absolute;
+    width: 135px;
+    height: 135px;
+    top: 74px;
+    left: 48px;
+    object-fit: cover;
+  }
+  
+  .macbook-pro .overlap-3 {
+    position: absolute;
+    width: 232px;
+    height: 220px;
+    top: 1108px;
+    left: 477px;
+    background-color: #d9d9d9;
+    border-radius: 41px;
+  }
+  
+  .macbook-pro .overlap-4 {
+    position: absolute;
+    width: 232px;
+    height: 220px;
+    top: 1108px;
+    left: 748px;
+    background-color: #d9d9d9;
+    border-radius: 41px;
+  }
+  
+  .macbook-pro .overlap-5 {
+    position: absolute;
+    width: 232px;
+    height: 220px;
+    top: 1108px;
+    left: 1019px;
+    background-color: #d9d9d9;
+    border-radius: 41px;
+  }
+  
+  .macbook-pro .overlap-group-2 {
+    position: absolute;
+    width: 232px;
+    height: 220px;
+    top: 1108px;
+    left: 1290px;
+    background-color: #d9d9d9;
+    border-radius: 41px;
+  }
+  
+  .macbook-pro .tulsilogo-2 {
+    position: absolute;
+    width: 70px;
+    height: 93px;
+    top: 41px;
+    left: 97px;
+    object-fit: cover;
+  }
+  
+  .macbook-pro .text-wrapper-17 {
+    position: absolute;
+    top: 67px;
+    left: 291px;
+    font-family: "Kumbh Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .text-wrapper-18 {
+    position: absolute;
+    top: 67px;
+    left: 471px;
+    font-family: "Kumbh Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .text-wrapper-19 {
+    position: absolute;
+    top: 67px;
+    left: 671px;
+    font-family: "Kumbh Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .text-wrapper-20 {
+    position: absolute;
+    top: 67px;
+    left: 902px;
+    font-family: "Kumbh Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .overlap-6 {
+    position: absolute;
+    width: 486px;
+    height: 407px;
+    top: 1653px;
+    left: 108px;
+    background-color: #d9d9d9;
+    border-radius: 66px;
+  }
+  
+  .macbook-pro .rectangle-2 {
+    position: absolute;
+    width: 486px;
+    height: 204px;
+    top: 0;
+    left: 0;
+    background-color: #741313;
+    border-radius: 68px 68px 25.85px 25.85px;
+  }
+  
+  .macbook-pro .text-wrapper-21 {
+    position: absolute;
+    top: 230px;
+    left: 24px;
+    font-family: "Kumbh Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #3f3f3f;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .adadakdhakj {
+    position: absolute;
+    top: 297px;
+    left: 25px;
+    font-family: "Kumbh Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .macbook-pro .overlap-7 {
+    position: absolute;
+    width: 486px;
+    height: 407px;
+    top: 1653px;
+    left: 621px;
+    background-color: #d9d9d9;
+    border-radius: 66px;
+  }
+  
+  .macbook-pro .overlap-8 {
+    position: absolute;
+    width: 486px;
+    height: 407px;
+    top: 1653px;
+    left: 1134px;
+    background-color: #d9d9d9;
+    border-radius: 66px;
+  }
+  
+  .search {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    margin: 0px;
+  }
+
+  #searchbar {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 8px;
+    flex: 1;
+    margin-right: 5px;
+  }
+
+  #search {
+    font-family: 'Nunito', sans-serif;
+    border: none;
+    background-color:rgb(67, 6, 25);
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+  }
+
+  #search:focus, #searchbar:focus {
+    outline: none;
+  }
+  #content {
+    font-family: 'Nunito', sans-serif;
+ }

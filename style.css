@@ -115,7 +115,7 @@ body, ul {
     font-size: 16px;
     line-height: 1.5;
   }
-  #search{
+/*   #search{
     background-color:rgb(67, 6, 25);
     color:white;
     border-radius: 10%;
@@ -126,7 +126,41 @@ body, ul {
     width: 320px;
     height: auto;
     border-radius:8%;
+  } */
+  .search {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    margin: 0px;
   }
+
+  #searchbar {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 8px;
+    flex: 1;
+    margin-right: 5px;
+  }
+
+  #search {
+    font-family: 'Nunito', sans-serif;
+    border: none;
+    background-color:rgb(67, 6, 25);
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+  }
+
+  #search:focus, #searchbar:focus {
+    outline: none;
+  }
+
+  #content {
+    font-family: 'Nunito', sans-serif;
+ }
+
   categories{
     display: flex;
     align-items: center;
@@ -147,3 +181,4 @@ body, ul {
       
   
   
+
