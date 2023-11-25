@@ -1,0 +1,140 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define styles for the navigation bar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content:space-between; /* Align elements to the left and right ends */
+    align-items: center;
+    padding: 10px;
+    width: 100%; /* Take full width of the screen */
+}
+
+
+/* Style the logo */
+.logo {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.logo p {
+    margin-left: 10px; /* Add spacing between the image and text */
+}
+/* Style the navigation links */
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Make the navigation links a flex container */
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the image buttons */
+.image-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.image-buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+
+/* Set a specific size for the images */
+.button-img {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+}
+
+.body-section {
+    background-color: #ffe2e4;
+    text-align: center;
+}
+
+/* Style the input and button in the body section */
+
+.body-section button {
+    background-color: #333;
+    color:#ffe2e4;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius:20px ;
+    width: 15%;
+
+    
+}
+
+/* Make the navigation responsive */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to the start (left) */
+    }
+
+    .nav-links {
+        margin-top: 10px; /* Add some spacing between logo and links */
+    }
+
+    .image-buttons {
+        width: 100%; /* Take full width when in mobile view */
+        margin-top:10; /* Add some spacing below the links */
+    }
+}
+
+.mainpic {
+    height: 25%;
+    width: 25%;
+    margin-left: 98%;
+    
+   
+}
+
+.one {
+    font-family: sans-serif;
+    font-size: 45px;
+    margin-top: 20px;
+
+}
+.two {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.searchbar{
+    margin-bottom: 80px;
+    justify-content: space-around;
+}
+.main{
+    background-color: #ffe2e4;
+
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.body-section{
+    justify-content:space-around;
+}
+#content {
+    float: left;
+    margin: auto;
+}
+
