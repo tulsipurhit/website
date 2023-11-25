@@ -167,11 +167,11 @@ body, ul {
     background-color:#ffe2e4;
   }
   .box{
-        border: 1px solid #000;
         border-radius:2%;
          /* Add borders or styles */
         margin: 5px; /* Add spacing between boxes */
-       
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Change values to adjust the shadow */
+
         display: inline;
          background-color: #e0e0e0;
       }
@@ -196,6 +196,7 @@ body, ul {
         max-width: 100px; /* Adjust the size of the image as needed */
         height: auto;
     }
+
     /*aboutus*/
     .abtus{
       margin-top: 0%;
@@ -222,3 +223,78 @@ body, ul {
   
   
 
+    
+    .article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 20px;
+        background-color: #e0e0e0;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+
+    }
+    
+    .article img {
+        max-width: 300px; /* Adjust the size of the image as needed */
+        height: auto;
+    }
+    .article h1 {
+        font-family: 'Nunito', sans-serif;
+        font-size: 24px;
+
+    }
+    .article p {
+        width: 280px;
+        font-family: 'Nunito', sans-serif;
+
+    }
+    .box1{
+/*         border: 1px solid #000;
+ */        border-radius:2%;
+         /* Add borders or styles */
+        margin: 5px; /* Add spacing between boxes */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Change values to adjust the shadow */
+
+         background-color: #ffffff;
+      }
+    .box1 {
+        align-items: center;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 20px;
+        width: 200px;
+
+    }
+    
+    .box1 img {
+        max-width: 200px; /* Adjust the size of the image as needed */
+        height: auto;
+    }
+    .container1 {
+        width: 500px;
+        align-items: center;
+        background-color:#efcfd1;
+
+
+      }
+      .timer{
+        display: flex; 
+        justify-content: center;
+      } #countdown {
+        font-size: 32px;
+        text-align: center;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+      }
+  
+      .digit {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        margin: 3px;
+        border-radius: 5px;
+      }
+      
